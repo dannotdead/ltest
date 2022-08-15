@@ -1,0 +1,26 @@
+.button {
+    border: none;
+    outline: none;
+
+    background: linear-gradient(104.34deg, #41522E -15.34%, #BE8022 145.95%);
+    color: white;
+    border-radius: 4px;
+
+    cursor: pointer;
+    padding: 15px;
+    margin-top: 8px;
+}
+
+.button:hover {
+    background: linear-gradient(0deg, rgba(255, 255, 255, 0.2),
+                rgba(255, 255, 255, 0.2)),
+                linear-gradient(104.34deg, #41522E -15.34%, #BE8022 145.95%);
+    border-radius: 4px;
+}
+
+.button:active {
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.2),
+                rgba(0, 0, 0, 0.2)),
+                linear-gradient(104.34deg, #41522E -15.34%, #BE8022 145.95%);
+    border-radius: 4px;
+}
