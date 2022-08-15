@@ -1,0 +1,29 @@
+.hotels {
+    background-color: #f3f3f3;
+    height: 100vh;
+}
+
+.hotels-grid {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-template-rows: repeat(2, 1fr);
+    grid-column-gap: 24px;
+    grid-row-gap: 24px;
+    margin: 0 15%;
+}
+
+.hotels-search {
+    grid-area: 1 / 1 / 2 / 2;
+}
+
+.hotels-search-label {
+    font-weight: bold;
+}
+
+.hotels-favourite {
+    grid-area: 2 / 1 / 3 / 2;
+}
+
+.hotels-list {
+    grid-area: 1 / 2 / 3 / 3;
+}

@@ -1,0 +1,15 @@
+.form {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.form div {
+    display: flex;
+    flex-direction: column;
+}
+
+.form h2 {
+    margin: 0 0 8px 0;
+    text-align: center;
+}

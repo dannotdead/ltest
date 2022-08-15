@@ -1,9 +1,12 @@
 import React from 'react';
 import './Input.css';
 
-const Input = () => {
+const Input = ({ label, type, labelClassName, inputClassName }) => {
   return (
-    <input className='input' />
+    <div>
+      <label className={`${labelClassName}`}>{label}</label>
+      <input className={`input ${inputClassName}`} type={type} />
+    </div>
   );
 };
 
