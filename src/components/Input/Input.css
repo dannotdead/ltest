@@ -2,7 +2,7 @@
     outline: none;
 
     padding: 15px;
-    margin-top: 7px;
+    margin: 7px 0;
 
     background: #FFFFFF;
     border: 1px solid #C9CACC;
@@ -16,4 +16,9 @@
     background: url('../../assets/calendar-today.svg') no-repeat;
     background-size: cover;
     cursor: pointer;
+}
+
+.auth-wrong-label {
+    color: #EB1717;
+    font-size: 12px;
 }

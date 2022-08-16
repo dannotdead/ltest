@@ -21,3 +21,7 @@
     height: 100vh;
     width: 100%;
 }
+
+.auth-wrong-input {
+    color: #EB1717;
+}
