@@ -16,7 +16,7 @@ const Hotels = () => {
 
   useEffect(() => {
     const checkInOut = date.toISOString().split('T')[0]
-    fetch(`http://engine.hotellook.com/api/v2/cache.json?location=${location}&lang=ru&currency=rub&checkIn=${checkInOut}&checkOut=${checkInOut}&limit=10`)
+    fetch(`https://engine.hotellook.com/api/v2/cache.json?location=${location}&lang=ru&currency=rub&checkIn=${checkInOut}&checkOut=${checkInOut}&limit=10`)
       .then(res => res.json())
       .then(data => setHotelsList([...data]))
   }, [])
@@ -25,7 +25,7 @@ const Hotels = () => {
     event.preventDefault()
     const checkIn = date.toISOString().split('T')[0]
     const checkOut = parseInt(daysCount) > 1 ? new Date(date.setDate(date.getDate() + parseInt(daysCount))).toISOString().split('T')[0] : checkIn
-    fetch(`http://engine.hotellook.com/api/v2/cache.json?location=${location}&lang=ru&currency=rub&checkIn=${checkIn}&checkOut=${checkOut}&limit=10`)
+    fetch(`https://engine.hotellook.com/api/v2/cache.json?location=${location}&lang=ru&currency=rub&checkIn=${checkIn}&checkOut=${checkOut}&limit=10`)
       .then(res => res.json())
       .then(data => setHotelsList([...data]))
   }
