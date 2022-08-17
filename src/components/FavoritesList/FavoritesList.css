@@ -1,0 +1,28 @@
+.fav-block {
+    display: flex;
+    gap: 32px;
+    flex-direction: column;
+}
+
+.fav-block-header {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.list {
+    overflow-y: auto;
+    max-height: 250px;
+}
+
+.list::-webkit-scrollbar {
+    width: 2px;
+}
+
+.list::-webkit-scrollbar-track {
+    background: #E7E7E7;
+    border: 2px solid #E7E7E7;
+}
+
+.list::-webkit-scrollbar-thumb {
+    border: 2px solid #41522E;
+}

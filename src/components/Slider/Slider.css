@@ -1,0 +1,18 @@
+.slider {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    white-space: nowrap;
+    font-size: 0;
+    cursor: pointer;
+}
+
+.slider:active {
+    cursor: grab;
+}
+
+.slider-item {
+    display: inline-block;
+    user-select: none;
+    width: 30%;
+}

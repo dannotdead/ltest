@@ -1,0 +1,54 @@
+.hotels {
+    background-color: #f3f3f3;
+    height: 100vh;
+}
+
+.hotels-grid {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-template-rows: repeat(2, 1fr);
+    grid-column-gap: 24px;
+    grid-row-gap: 24px;
+    margin: 0 10%;
+    height: 90vh;
+}
+
+.hotels-search {
+    grid-area: 1 / 1 / 2 / 2;
+}
+
+.hotels-search-label {
+    font-weight: bold;
+}
+
+.hotels-favourite {
+    grid-area: 2 / 1 / 3 / 2;
+}
+
+.hotels-list {
+    grid-area: 1 / 2 / 3 / 3;
+}
+
+.fav-image {
+    width: 21px;
+    height: 18px;
+    cursor: pointer;
+    background: url('../../assets/fav_icon.svg') no-repeat;
+    background-size: cover;
+}
+
+.fav-image:hover {
+    background: url('../../assets/fav_icon_hover.svg') no-repeat;
+    background-size: cover;
+}
+
+.fav-image:active {
+    background: url('../../assets/fav_icon_active.svg') no-repeat;
+    background-size: cover;
+}
+
+.arrow-up {
+    width: 9px;
+    background: url('../../assets/arrow-up.svg') no-repeat;
+    background-size: cover;
+}

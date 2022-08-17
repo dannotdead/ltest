@@ -1,0 +1,62 @@
+.list-item {
+    padding: 16px 14px 16px 0;
+    border-bottom: 1px solid rgba(135, 135, 135, 0.2);
+    border-radius: 8px;
+}
+
+.fav-hotel-mark,
+.fav-hotel-date,
+.fav-hotel-name {
+    display: flex;
+    justify-content: space-between;
+}
+
+.fav-hotel-name span {
+    font-size: 17px;
+    line-height: 22px;
+    max-width: 250px;
+}
+
+.fav-image-active {
+    width: 21px;
+    height: 18px;
+    cursor: pointer;
+    background: url('../../assets/fav_icon_active.svg') no-repeat;
+    background-size: cover;
+}
+
+.fav-hotel-date span {
+    font-size: 14px;
+    line-height: 22px;
+    color: #878787;
+}
+
+.star-block {
+    display: flex;
+    gap: 3px;
+    margin-top: 5px;
+}
+
+.star-empty {
+    background: url('../../assets/star_empty.svg') no-repeat;
+    background-size: cover;
+    width: 17px;
+    height: 17px;
+}
+
+.star-checked {
+    background: url('../../assets/star.svg') no-repeat;
+    background-size: cover;
+    width: 17px;
+    height: 17px;
+}
+
+.fav-hotel-price-text {
+    font-size: 11px;
+    color: #878787;
+}
+
+.fav-hotel-price-value {
+    font-size: 17px;
+    line-height: 22px;
+}

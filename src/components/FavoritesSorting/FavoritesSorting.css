@@ -1,0 +1,22 @@
+.sorting-block {
+    display: flex;
+    gap: 8px;
+}
+
+.sort-by-active,
+.sort-by {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    border: 1px solid #E5E5E5;
+    border-radius: 4px;
+    max-width: 90px;
+    font-size: 14px;
+    padding: 4px 8px;
+    color: #99A0A3;
+}
+
+.sort-by-active {
+    border: 1px solid #41522E;
+    color: #41522E;
+}

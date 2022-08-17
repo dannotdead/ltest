@@ -1,7 +1,7 @@
 .navbar {
     display: flex;
     justify-content: space-between;
-    padding: 32px;
+    padding: 28px;
 }
 
 .navbar-logout {

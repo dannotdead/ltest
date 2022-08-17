@@ -1,7 +1,7 @@
 import {Routes, Route, Navigate} from 'react-router-dom';
 
-import Auth from './pages/Auth';
-import Hotels from './pages/Hotels';
+import Auth from './pages/Auth/Auth';
+import Hotels from './pages/Hotels/Hotels';
 
 const App = () => {
   return (

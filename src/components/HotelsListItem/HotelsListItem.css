@@ -1,0 +1,48 @@
+.hotel-list-item {
+    display: flex;
+    padding: 16px 0;
+    border-bottom: 1px solid rgba(135, 135, 135, 0.2);
+    margin-right: 16px;
+}
+
+.hotel-list-item-image {
+    background-color: rgba(65, 82, 46, 0.05);
+    padding: 16px;
+    margin-right: 24px;
+    border-radius: 50%;
+}
+
+.hotel-list-item-block {
+    display: flex;
+    flex-direction: column;
+}
+
+.hotel-list-item-name {
+    font-size: 17px;
+    line-height: 22px;
+}
+
+.hotel-list-item-date {
+    font-size: 14px;
+    line-height: 22px;
+    color: #878787;
+}
+
+.hotel-list-item-fav {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: space-around;
+    margin-left: auto;
+}
+
+.hotel-list-item-price-text {
+    font-size: 11px;
+    margin-right: 8px;
+    color: #878787;
+}
+
+.hotel-list-item-price-val {
+    font-size: 17px;
+    line-height: 22px;
+}
